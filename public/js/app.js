@@ -48,7 +48,7 @@ app.controller('chatController', function($scope, $rootScope) {
   renderMessage = (messageObj) => {
     $('#messages').append("\
       <div class=\"w-100 d-flex mb-2\">\
-        <div class=\"card p-2" + (messageObj.author == $('#username').val() ? " ml-auto my-message" : "") + "\">\
+        <div class=\"card p-2 shadow-sm" + (messageObj.author == $('#username').val() ? " ml-auto my-message" : "") + "\">\
           <strong>" + messageObj.author + "</strong>" + messageObj.message + "\
         </div>\
       </div>\

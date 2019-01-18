@@ -5,8 +5,9 @@ body {
 }
 
 #messages {
-  height: calc(100vh - 117px);
-  overflow: scroll
+  height: calc(100vh - 108px);
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .my-message {
