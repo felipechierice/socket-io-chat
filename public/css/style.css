@@ -1,0 +1,14 @@
+body {
+  background-color: #e5ddd5;
+  margin:0;
+  padding: 0;
+}
+
+#messages {
+  height: calc(100vh - 117px);
+  overflow: scroll
+}
+
+.my-message {
+  background-color: #dcf8c6;
+}
