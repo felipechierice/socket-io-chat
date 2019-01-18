@@ -53,5 +53,9 @@ app.controller('chatController', function($scope, $rootScope) {
         </div>\
       </div>\
     ");
+
+    $('#messages').animate({
+      scrollTop: $(document).height()
+    }, 'slow');
   }
 });
